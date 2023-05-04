@@ -6,6 +6,7 @@ const seedProductTags = require('./product-tag-seeds');
 const sequelize = require('../config/connection');
 
 const seedAll = async () => {
+  //force true allows to drop existent tables and allow you to create new ones
   await sequelize.sync({ force: true });
   console.log('\n----- DATABASE SYNCED -----\n');
   await seedCategories();
@@ -22,5 +23,5 @@ const seedAll = async () => {
 
   process.exit(0);
 };
-
+//seed all executes all seeded process
 seedAll();
