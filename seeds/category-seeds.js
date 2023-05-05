@@ -17,7 +17,7 @@ const categoryData = [
     category_name: 'Shoes',
   },
 ];
-
+//bulkcreate takes in array of data
 const seedCategories = async () => {
   try {
     await Category.bulkCreate(categoryData);
