@@ -1,7 +1,8 @@
-# Employee Tracker
+# Ecommerce-Back-End
 
 ## Description 
 
+This web application is a backend service that uses Node.js, Express, Sequelize and dotenv to provide routes to a front-end interface while accessing data stored in a MySQL database. The system is designed to help developers build powerful and efficient applications with ease. It provides robust tools such as user authentication, authorization, password encryption, and more, allowing users to quickly create secure and reliable applications without the need for extensive coding. Additionally, its use of dotenv ensures that application deployment is quick and smooth.
  
 ## Table of Contents 
 
@@ -76,13 +77,6 @@ node server.js
 
 
 
-
-# Video guide
-
-- [cruzkenneth504-Youtube]() 
-
-
-
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
@@ -96,12 +90,14 @@ node server.js
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6-yellow)
 ![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
 [![npm version](https://img.shields.io/npm/v/console.table.svg)](https://www.npmjs.com/package/console.table)
-![Require](https://img.shields.io/badge/Require.js-v2.3.6-orange)
+[![Code Style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://standardjs.com)
+
+
 
 ## **Author**
 
 * **Kenneth Cruz** 
-- [Link to Repo](https://github.com/Cruzkenneth504/employee-tracker)
+- [Link to Repo](https://github.com/Cruzkenneth504/e-commerce-back-end)
 - [Link to Github](https://github.com/cruzkenneth504)
 - [Link to LinkedIn](linkedin.com/in/cruzkenneth504)
 
