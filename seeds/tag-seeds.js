@@ -26,15 +26,7 @@ const tagData = [
     tag_name: 'pop culture',
   },
 ];
-//changed to async operation
-const seedTags = async () => {
-  try {
-    await Tag.bulkCreate(tagData);
-  } catch (err) {
-    console.error(err);
-    throw err;
-  }
-};
 
+const seedTags = () => Tag.bulkCreate(tagData);
 
 module.exports = seedTags;

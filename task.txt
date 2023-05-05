@@ -1,4 +1,0 @@
-1 //complete server -- done
-2 //complete config -- done
-3 //complete schema sql and modal -- done
-4 //complete routes
